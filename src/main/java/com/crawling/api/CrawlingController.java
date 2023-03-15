@@ -28,7 +28,6 @@ public class CrawlingController {
         Elements elem = doc.select(".new_totalinfo dl>dd");
 
         String price = elem.get(3).text().split(" ")[1];
-
         System.out.println(price);
     }
 }
